@@ -10,7 +10,7 @@
 
 See the live version of [Physiotherapist Business Website](https://www.alejandrotorresphysiotherapy.com/).
 
-This website provides information about a physiotherapy business, including their experience, location, opening and closing hours, and contact information. Visitors can also use an email form to send messages directly to the business. 
+This website provides information about a physiotherapy business, including their experience, location, opening hours, and contact information. Visitors can also use an email form to send messages directly to the business. 
 
 **Main features**:
 - Presentation of the range of physiotherapy services
@@ -62,7 +62,7 @@ To run this application, you will need to have Node.js and npm (Node Package Man
 </div>
 
 &nbsp;
-- I integrated Google Map into the project to display a map of the business location, along with directions for getting there. Google Maps provides a rich set of features that allow our users to explore our area and nearby points of interest, enhancing the overall user experience of our web application.
+- I integrated Google Map into the project to display a map of the business location, along with directions for getting there. Google Maps provides a rich set of features that allow users to explore area and nearby points of interest, enhancing the overall user experience of our web application.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/94841011/224490327-d19f7a2e-2580-4963-969c-d7ff11f67d65.png">
