@@ -2,7 +2,7 @@
 
 See the live version of [Physiotherapist Business Website](https://www.alejandrotorresphysiotherapy.com/).
 
-This website provides information about our Physiotherapy business. You can find details about our experience, opening and closing times, location, and contact information. Additionally, you can fill out a form to send an email to us.
+This website provides information about a physiotherapy business, including details about their experience, opening and closing times, location, and contact information. Visitors can also fill out a form to send an email to the business.
 
 **Main features**:
 - Presentation of the range of physiotherapy services
