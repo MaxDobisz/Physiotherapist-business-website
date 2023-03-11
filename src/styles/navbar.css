@@ -1,0 +1,151 @@
+.header-wrapper {
+    background-color: var(--background-color-light);
+    box-shadow: rgba(50, 50, 93, 0.25) 0 0 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 10px -30px, rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+} 
+
+.header {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 80px;
+}
+
+.header__logo {
+    align-self: center;
+    background-image: url('./../../public/images/Logo\ HorizontalLogo.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-column-end: 3;
+    grid-column-start: 2;
+    height: 85%;
+}
+
+.header__hamburger {
+    position: relative;
+}
+
+.hamburger__bars {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    left: -45%;
+    position: absolute;
+    transition: transform 400ms;
+    user-select: none;
+}
+
+.hamburger__rotate.active {
+    transform: rotate(45deg);
+}
+
+.hamburger__line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:rgb(41, 50, 61);
+    stroke-width: 5.5;
+    stroke-linecap: round;
+}
+
+.top {
+    stroke-dasharray: 40 139;
+}
+
+.bottom {
+    stroke-dasharray: 40 180;
+}
+
+.active .top {
+    stroke-dashoffset: -98px;
+}
+
+.active .bottom {
+    stroke-dashoffset: -138px;
+  }
+
+.header__navigation {
+    background-color: var(--text-color-dark);
+    font-weight: 800;
+    left: 100%;
+    position: absolute;
+    top: 80px;
+    transition: 300ms ease-out;
+    width: 100%; 
+    z-index: 3;
+}
+
+.navigation-active {
+    left: 0;
+}
+
+.navigation__item {
+    font-weight: 800;
+}
+
+.navigation__divider {
+    margin: 0 auto;
+    width: 90%;
+    border: none;
+    border-top: 1px solid rgba(143, 197, 161, 0.178);
+}
+
+@media(min-width: 790px) {
+    .header {
+        align-items: center;
+        display: flex;
+        height: max-content;
+        position: static;
+        top: 0;
+    }
+
+    .header__logo {
+        background-image: url('./../../public/images/Logo\ HorizontalLogo.png');
+        height: 50px;
+        margin-right: 2rem;
+        width: 25%;
+    }
+    
+    .header__hamburger {
+        display: none;
+    }
+
+    .header__navigation {
+        background-color: transparent;
+        font-size: 1rem;
+        position: static;
+        z-index: 0;
+    }
+
+    .header__list {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+    } 
+
+    .navigation__item {
+        color: black;
+        height: 80px;
+    }
+    
+    .navigation__item {
+        font-weight: 800;
+    }
+
+    .navigation__divider {
+        display: none;
+    }
+}
+
+@media(min-width: 1000px) {
+    .header__list {
+        width: 80%;
+    }
+}

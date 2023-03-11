@@ -1,0 +1,151 @@
+.contact-wrapper {
+    background:linear-gradient(to right top,rgb(35, 91, 110),rgb(61, 159, 160));
+    padding: 1rem 1rem;
+    
+}
+
+.contact__title {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.contact__privacy {
+    color: black;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.input-container{
+	position:relative;
+	margin-bottom: 1em;
+}
+
+.input-container label{
+	position: absolute;
+	top:0;
+	left:0;
+	font-size: 1rem;
+	color:#fff;	
+	transition: all 0.5s ease-in-out;
+}
+
+.input-container input{ 
+    border: none;
+    border-bottom: 1px solid #555;  
+    background: transparent;
+    width: 100%;
+    padding: .7em 0 .2em 0;
+    font-size: 1rem;
+    color:#fff;
+}
+
+.input-container input:focus{ 
+    border:none;	
+    outline:none;
+    border-bottom:1px solid rgb(143, 197, 161);	
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+}
+
+.form__button {
+    margin: 0 auto;
+    width: 50%;
+    font-weight: bold;
+    border: 0;
+	background-color:rgb(143, 197, 161);
+    border: 0;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+    padding: .5em;
+    color:black;
+}
+
+.contact__icons {
+    font-size: 2.7rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.contact__form-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+@media(min-width: 790px) {
+    .contact__title {
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: .5em;
+    }
+    
+    .contact__icons {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .contact__form {
+        width: 50%;
+        color:'red'
+    }
+    
+    .input-container{
+        position:relative;
+        margin-bottom: 1em;
+    }
+    
+    .input-container label{
+        position: absolute;
+        top:0;
+        left:0;
+        font-size: 1rem;
+        color:#fff;	
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .input-container input{ 
+        border: none;
+        border-bottom: 1px solid #555;  
+        background: transparent;
+        width: 100%;
+        padding: .7em 0 .2em 0;
+        font-size: 1rem;
+        color:#fff;
+    }
+    
+    .input-container input:focus{ 
+        border:none;	
+        outline:none;
+        border-bottom:1px solid rgb(143, 197, 161);	
+    }
+    
+    .input-container input:focus ~ label,
+    .input-container input:valid ~ label{
+        top:-12px;
+        font-size:12px;
+    }
+}
+
+@media(min-width: 790px) {
+    .embla__button {
+        display: flex;
+    }
+}

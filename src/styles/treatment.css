@@ -1,0 +1,112 @@
+.treatment-wrapper {
+    background:linear-gradient(to right top,rgb(35, 91, 110),rgb(61, 159, 160));
+    padding: 1rem 1rem;
+}
+
+.treatment__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.treatment__item {
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+    border-radius: 20px;
+}
+
+.treatment__item-img {
+    width: 60%;
+}
+
+.treatment-item__title {
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 5px 8px rgba(7, 7, 7, 0.8);
+    letter-spacing: .2ch;
+    font-size: 1.3rem;
+}
+
+.treatment-item__description {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 0 5px 8px rgb(20, 20, 20);
+}
+
+@media(min-width: 790px) {
+    .treatment {
+        border-top: none;
+        margin-top: 0;
+    }
+    
+    .treatment__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .treatment__item {
+        width: 45%;
+    }
+    
+    .treatment__item-img {
+        width: 60%;
+    }
+    
+    .treatment-item__title {
+        text-align: center;
+        font-weight: 700;
+        text-shadow: 0 5px 8px rgba(7, 7, 7, 0.8);
+        letter-spacing: .2ch;
+        font-size: 1.3rem;
+    }
+    
+    .treatment-item__description {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        font-style: italic;
+        text-shadow: 0 5px 8px rgb(20, 20, 20);
+    }
+}
+
+@media(min-width: 1000px) {
+    .treatment {
+        border-top: none;
+        margin-top: 0;
+    }
+    
+    .treatment__list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+ 
+    .treatment__item-img {
+        width: 60%;
+    }
+    
+    .treatment-item__title {
+        text-align: center;
+        font-weight: 700;
+        text-shadow: 0 5px 8px rgba(7, 7, 7, 0.8);
+        letter-spacing: .2ch;
+        font-size: 1.3rem;
+    }
+    
+    .treatment-item__description {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        font-style: italic;
+        text-shadow: 0 5px 8px rgb(20, 20, 20);
+    }
+}
