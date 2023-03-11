@@ -1,8 +1,16 @@
 # Physiotherapist Business Website
 
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/94841011/224488484-e4280822-453c-43be-bad8-be518915042c.png">
+  <img src="https://user-images.githubusercontent.com/94841011/224488347-8fab8965-3be5-4396-8acf-d8a163062ba4.png">
+</div>
+
+&nbsp;
+
 See the live version of [Physiotherapist Business Website](https://www.alejandrotorresphysiotherapy.com/).
 
-This website provides information about a physiotherapy business, including details about their experience, opening and closing times, location, and contact information. Visitors can also fill out a form to send an email to the business.
+This website provides information about a physiotherapy business, including their experience, location, opening and closing hours, and contact information. Visitors can also use an email form to send messages directly to the business. 
 
 **Main features**:
 - Presentation of the range of physiotherapy services
@@ -47,52 +55,11 @@ To run this application, you will need to have Node.js and npm (Node Package Man
  
 ## 🤔 Solutions provided in the project
 
-- one
+- I used EmailJS to enable users to contact the business directly through the web app. EmailJS is a JavaScript library that allows for sending emails directly from the client-side code, which makes it easy to integrate email functionality into our web application without requiring a back-end server. To ensure that user-submitted emails are valid before being sent via EmailJS, I used the Formik library for email validation.
+![Screenshot-form](https://user-images.githubusercontent.com/94841011/224490330-d8666192-9660-47e2-ac25-4ef88f195037.png)
 
- &nbsp;
-
-- two:
-```
-some example code
-
-more code :)
-```
- &nbsp;
-
-- three
-
-| Issue                     | Solution                       |     |
-| ------------------------- | -----------------------------  | --- |
-| one                       | `short code example`           |     |
-| two                       | `short code example`           |     |
-| thre                      | `short code example`           |     |
-
- &nbsp;
- 
-- four - some shortcut <kbd>Ctrl</kbd> + <kbd>C</kbd>
-
- &nbsp;
- 
-- five - example with a screenshot
-<img alt='what it is' src="https://via.placeholder.com/500x200" />
-
-
-&nbsp;
-
-## 💭 Conclusions for future projects
-
-I would like to improve...
-
-#### This is the first issue:
-```
-and this is a code example
-```
-
-#### This is the second issue:
-```
-and this is a code example
-```
-
+- I integrated Google Map into the project to display a map of the business location, along with directions for getting there. Google Maps provides a rich set of features that allow our users to explore our area and nearby points of interest, enhancing the overall user experience of our web application
+![Screenshot-map](https://user-images.githubusercontent.com/94841011/224490327-d19f7a2e-2580-4963-969c-d7ff11f67d65.png)
 
 &nbsp;
 
