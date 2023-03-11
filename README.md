@@ -56,10 +56,17 @@ To run this application, you will need to have Node.js and npm (Node Package Man
 ## 🤔 Solutions provided in the project
 
 - I used EmailJS to enable users to contact the business directly through the web app. EmailJS is a JavaScript library that allows for sending emails directly from the client-side code, which makes it easy to integrate email functionality into our web application without requiring a back-end server. To ensure that user-submitted emails are valid before being sent via EmailJS, I used the Formik library for email validation.
-![Screenshot-form](https://user-images.githubusercontent.com/94841011/224490330-d8666192-9660-47e2-ac25-4ef88f195037.png)
 
-- I integrated Google Map into the project to display a map of the business location, along with directions for getting there. Google Maps provides a rich set of features that allow our users to explore our area and nearby points of interest, enhancing the overall user experience of our web application
-![Screenshot-map](https://user-images.githubusercontent.com/94841011/224490327-d19f7a2e-2580-4963-969c-d7ff11f67d65.png)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/94841011/224490330-d8666192-9660-47e2-ac25-4ef88f195037.png">
+</div>
+
+&nbsp;
+- I integrated Google Map into the project to display a map of the business location, along with directions for getting there. Google Maps provides a rich set of features that allow our users to explore our area and nearby points of interest, enhancing the overall user experience of our web application.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/94841011/224490327-d19f7a2e-2580-4963-969c-d7ff11f67d65.png">
+</div>
 
 &nbsp;
 
